@@ -49,7 +49,15 @@ btn.addEventListener('click', () => {
               audio.play();
 }
          	}, 15);
+  // Extra cool code.
 
+      child.addEventListener('click', () => {
+        
+      child.style.width = '0';
+      child.style.height = '0';
+      child.style.opacity = '0';
+      })
+	
         /*setInterval(function() {
           let backGround = Math.floor(Math.random()* 99);
           let backGroundB = Math.floor(Math.random()* 99);
