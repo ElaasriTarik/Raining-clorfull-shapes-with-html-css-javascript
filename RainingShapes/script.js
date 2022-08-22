@@ -56,6 +56,7 @@ btn.addEventListener('click', () => {
       child.style.width = '0';
       child.style.height = '0';
       child.style.opacity = '0';
+	      child.style.transition = 'opacity 0.1s linear'
       })
 	
         /*setInterval(function() {
